@@ -1,16 +1,7 @@
+*{
+  margin:0;
+  padding:0;
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: sans-serif;
-   line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background-color:rgba( 147, 169, 146);
 }
 
 .Title h1{
@@ -18,11 +9,10 @@ html {
   letter-spacing: 2vh;
   font-size: 18vh;
   text-align: center;
-  top:20vh;
+  top:40vh;
   color:rgb(224, 162, 193);
   height: 100vh;
   width: 100%;
-  text-align: center;
   position: relative;
 }
 #Fondo-Portada {
@@ -35,26 +25,147 @@ html {
     z-index: -100;
     object-fit:cover;
   }
-
-#Info {
-  height: 100vh;
-  width: 100%;
-  position: absolute;
-  left:0;
-  margin: 0;
-  z-index: -100;
- 
-}
-
-
-.scroll-to-bottom {
+.Title #scroll-to-bottom {
     position: fixed;
     width: 20px;
     left: calc(50% - 10px);
     bottom: 30px;
     z-index: 11;
-    animation: action 1s infinite alternate;
+    animation: action 1s infinite alternate;}
+
+.Text{
+  height:100vh;
+  width:100%;
+  font-family:'Bebas Neue', cursive;
+  font-size: 10vh;
+  color:rgb(224, 162, 193);
+  background-color:rgba( 147, 169, 146);
+  text-align:center;
+  
+  ;
   }
+  .Text h2{
+    letter-spacing: 1.5vh;
+    margin:0px auto;
+    line-height:25vh;
+    margin:0px auto;
+
+  }
+  
+
+.Text .Icons {
+  line-height:center;
+  margin:0px auto;
+
+}
+#Playstore {
+  height:40vh;
+  width:40vh;
+}
+#iosappStore{
+  height:40vh;
+  width:40vh;
+}
+.Text2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 5vh;
+  color:rgb(55, 54, 54);
+  background-color:rgba( 240, 255, 240);
+  height: 100vh;
+  width: 100%;
+  position:relative;
+
+}
+.Text2 #Focusword{
+  font-family: 'Bebas Neue', cursive;
+  font-size:4vh;
+  color:rgb(224, 162, 193);
+  
+}
+.Text2 h1 {
+  font-size:14vh;
+  color:rgb(224, 162, 193);
+  margin:0px auto;
+  text-align: center;
+  width: 100%;
+  height:20vh;
+
+}
+.Text2 h2 {
+  font-size: 5vh;
+  color:rgb(55, 54, 54);
+  text-align: center;
+  
+width: 100%;
+height: 30vh;
+line-height:center;
+
+}
+.Text2 h3 {
+  font-size: 5vh;
+  text-align: center;
+  letter-spacing: 0ch;
+  line-height:center;
+  width: 100%;
+height: 30vh;
+}
+.Text2 h4 {
+  font-size: 5vh;
+  text-align: center;
+  width: 100%;
+height: 30vh;
+line-height:center;
+}
+.Text2 h5{
+  font-size: 5vh;
+  text-align: center;
+  letter-spacing: 0ch;
+width: 100%;
+height: 10vh;
+line-height:center;
+}
+.Text3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vh;
+  color:rgb(55, 54, 54);
+  background-color:rgba( 240, 255, 240);
+  height: 100vh;
+  width: 100%;
+  line-height:center;
+  position:relative;
+
+}
+.Text3 h1 {
+  height: 60vh;
+  width: 100%;
+  line-height:center;
+  margin:0px auto;
+  font-size: 5vh;
+  top:auto;
+
+
+
+}
+.Text3 h2 {
+  top:auto;
+  height: 60vh;
+  width: 100%;
+  font-size: 5vh;
+  margin:0px auto;
+
+}
+
+#Info {
+  height: 100vh;
+  width: 100%;
+  object-fit:cover;
+  left:0;
+  margin: 0;
+  z-index: -100;
+  background-color:rgba( 240, 255, 240);
+ 
+}
+
   .back-to-top {
     position: fixed;
     display: none;
@@ -73,3 +184,30 @@ html {
       transform: translateY(-15px);
     }
   }
+
+  .footer {
+    height: 20vh;
+     width: 100%;
+    opacity: .2;
+    width: 100%;
+    grid-area: footer;
+    text-decoration: none;
+    font-size: 1rem;
+    border-color: rgb(170, 163, 154);
+    color:black;
+  
+  }
+  .footer #copyright{
+   float: right;
+   font-size: 0.6rem;
+   font-family:'Times New Roman', Times, serif;
+   
+  }
+   #creator{
+    
+    float: inline-end;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+    
